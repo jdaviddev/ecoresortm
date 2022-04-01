@@ -23,6 +23,8 @@ ul{     list-style: none;}
 
 li{     font-size: 1.25em;}
 
+img{    width: 100%;}
+
 button {
     font-size: 1.5em;
     font-weight: bold;
@@ -281,4 +283,64 @@ header a:hover{
     footer .container{
         justify-content: flex-end;
     }
+
+    #galeria .container{
+        text-align: center;
+           
+    }
+
+    #galeria .container-galeria{
+        justify-content: space-around;
+    }
+
+    #galeria .row{
+        display: flex;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+
+    #galeria .colum{
+        flex: 25%;
+        padding: 5px;
+    }
+
+    #galeria .colum img{
+        margin-top: 5px;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        transition: 2s;
+        position: relative;
+        background: rgba(0,0,0,0.5);
+    }
+
+    #info .container{
+        width: 100%;
+        display: flex;
+    }
+
+    #info .datos{
+        width: 100%;
+        height: 25vh;
+        text-align: center;
+        background-color: rgb(249, 252, 252);
+        margin: 5px
+    }
+
+    #info h4{
+        font-size: 1.5em;
+    }
+
+    #info p{
+        text-align: left;
+        padding: 0;
+        margin: 5px ;
+    }
+
+    #info .datos p span{
+        color: blue;
+        text-decoration: solid;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+ 
 }
